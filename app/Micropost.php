@@ -15,4 +15,13 @@ class Micropost extends Model
     {
         return $this->belongsTo(User::class);
     }
+    
+    /**
+     * 
+     */
+    public function favorite_users()
+    {
+        return $this->belongsTo(User::class);
+    }
+   
 }
